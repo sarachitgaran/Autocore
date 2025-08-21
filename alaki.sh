@@ -1,0 +1,1 @@
+chmod +w /Users/sara/Desktop/Autocore/alaki.sh
