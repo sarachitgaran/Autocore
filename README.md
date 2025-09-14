@@ -8,3 +8,5 @@ Systemic lupus erythematosus (SLE), Inflammatory bowel disease (IBD) Rheumatoid 
 Microchimerism in Autoimmune Diseases in women
 
 endotype
+
+custom gene set
