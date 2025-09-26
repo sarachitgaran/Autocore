@@ -14,3 +14,5 @@ custom gene set
 check with IKER
 
 No data for MCTD
+
+For IBD, fist I ran the analysis for the whole dataset based on the treatment of Infliximab and Vedalizimab (comparison: respondent vs. non-respondent) but it was too chaotic and the PCA was not good at all. Then I deparated based on Diagnosis, whether they are UC or CD.
