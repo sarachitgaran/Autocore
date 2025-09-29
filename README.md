@@ -1,4 +1,4 @@
-My project at LBI for Network medicine: Testing the therapeutic utility of AutoCore in rare AI/AIF diseases.
+My project at LBI for Network Medicine: Testing the therapeutic utility of AutoCore in rare AI/AIF diseases.
 
 I fetched raw bulk RNA-Seq data of different rare disease including:
 
