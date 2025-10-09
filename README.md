@@ -11,7 +11,6 @@ endotype
 
 custom gene set
 
-check with IKER
 
 No data for MCTD
 
