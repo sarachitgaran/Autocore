@@ -1,0 +1,413 @@
+# Supplementary File 4: AutoCore nodelist										
+#										
+# EntrezdID: node EntrezdID										
+# group: indicated if a node is a linker/ or autoimmune/autoinflammatory disease gene.										
+# AIM_AIF: indicates if a node presents with autoimmunity or autoinflammation. AIM: autoimmunity, AIF: autoinflammation.								
+# phenotype: main phenotype linked to the disease, if node is disease gene									
+# clusterID: cluster identifier										
+# symbol: node symbol										
+# color: node color on Figure 6C										
+# cluster_name: name of cluster (if applicable) the node belongs to										
+# GWAS position: indicated if a node is a GWAS linker or not										
+# closeness: closeness centrality of AIM AIF nodes										
+#										
+EntrezID	group	AIM_AIF	phenotype	IUIS_gorup	clusterID	symbol	color	cluster_name	GWAS position	closeness
+54	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	ACP5	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.354982206
+100	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c7	ADA	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.383653846
+103	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c6	ADAR	#00ffe0	Proteasome complex	x	0.439427313
+248	AIM AIF	AIM and AIF	autoinflammatory disease	Autoinflammatory disorders	c4	ALPI	#cc00ff	x	GWAS_linker	0.395833333
+326	AIM AIF	AIM	"CID,Tregopathy"	Diseases of immune dysregulation	c8	AIRE	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.429956897
+331	AIM AIF	AIF	"CID, HLH"	Diseases of immune dysregulation	c20	XIAP	#ff0000	NFkB and chromatin	GWAS_linker	0.439427313
+355	AIM AIF	AIM and AIF	Phenocopies of inborn errors of immunity	Phenocopies of inborn errors of immunity	c15	FAS	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.439427313
+356	AIM AIF	AIF	CID	Diseases of immune dysregulation	c15	FASLG	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.427652733
+472	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c20	ATM	#ff0000	NFkB and chromatin	GWAS_linker	0.466121495
+567	AIM AIF	AIF	CID	Immunodeficiencies affecting cellular and humoral immunity	c11	B2M	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.393879566
+629	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c18	CFB	#5100ff	Complement	GWAS_linker	0.377483444
+695	AIM AIF	AIM	PAD	Predominantly antibody deficiencies	c14	BTK	#00e0ff	TCR and BCR	GWAS_linker	0.447811448
+710	AIM AIF	AIM and AIF	Complement deficiency	Complement deficiencies	c18	SERPING1	#5100ff	Complement	GWAS_linker	0.368081181
+712	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C1QA	#5100ff	Complement	GWAS_linker	0.400200602
+713	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C1QB	#5100ff	Complement	GWAS_linker	0.38700291
+714	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C1QC	#5100ff	Complement	GWAS_linker	0.37606032
+715	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C1R	#5100ff	Complement	x	0.401005025
+716	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C1S	#5100ff	Complement	GWAS_linker	0.364383562
+717	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C2	#5100ff	Complement	GWAS_linker	0.348471616
+718	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C3	#5100ff	Complement	GWAS_linker	0.425373134
+720	AIM AIF	AIM	Complement deficiency	Complement deficiencies	na	C4A	#c1c2c0	x	GWAS_linker	0.382917466
+721	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C4B	#5100ff	Complement	GWAS_linker	0.373595506
+727	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c15	C5	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.371854613
+729	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C6	#5100ff	Complement	GWAS_linker	0.389648438
+730	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C7	#5100ff	Complement	x	0.365719523
+731	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C8A	#5100ff	Complement	x	0.327317473
+732	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C8B	#5100ff	Complement	x	0.326246934
+733	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C8G	#5100ff	Complement	x	0.332223147
+735	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	C9	#5100ff	Complement	x	0.360759494
+841	AIM AIF	AIF	CID	Diseases of immune dysregulation	c15	CASP8	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.472189349
+843	AIM AIF	AIF	CID	Diseases of immune dysregulation	c15	CASP10	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.375352775
+917	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c11	CD3G	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.382550336
+939	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c15	CD27	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.373246024
+958	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c20	CD40	#ff0000	NFkB and chromatin	GWAS_linker	0.442841287
+959	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c20	CD40LG	#ff0000	NFkB and chromatin	x	0.37963844
+970	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c16	CD70	#14ff00	Interleukin and cytokine	GWAS_linker	0.374296435
+987	AIM AIF	AIM	CID	Diseases of immune dysregulation	c4	LRBA	#cc00ff	x	x	0.41955836
+998	AIM AIF	AIF	HLH	x	c10	CDC42	#cbff00	Actin regulation	GWAS_linker	0.463953488
+1130	AIM AIF	AIF	"CID, HLH"	Diseases of immune dysregulation	c19	LYST	#00ff66	x	GWAS_linker	0.349693252
+1314	AIM AIF	AIM	autoinflammatory disease and autoimmunity	Autoinflammatory disorders	c13	COPA	#ff003d	Vesicular traffic	GWAS_linker	0.458094145
+1493	AIM AIF	AIM	CID	Diseases of immune dysregulation	c17	CTLA4	#ff00b7	x	GWAS_linker	0.40797546
+1535	AIM AIF	AIM and AIF	CGD	Congenital defects of phagocyte number or function	c11	CYBA	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.391560353
+1536	AIM AIF	AIM and AIF	CGD	Defects in intrinsic and innate immunity	c11	CYBB	#00a3ff	Steroid resistant inflammation	x	0.384393064
+1604	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c18	CD55	#5100ff	Complement	GWAS_linker	0.40797546
+1675	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c11	CFD	#00a3ff	Steroid resistant inflammation	x	0.37012987
+1773	AIM AIF	AIM	CID	x	c7	DNASE1	#00ff28	RNA remodelling and nucleotide	x	0.378557875
+1776	AIM AIF	AIM	CID	Autoinflammatory disorders	c7	DNASE1L3	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.333333333
+1789	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	c8	DNMT3B	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.399399399
+2542	AIM AIF	AIM	glycogen storage disease	Congenital defects of phagocyte number or function	c13	SLC37A4	#ff003d	Vesicular traffic	x	0.323338736
+2624	AIM AIF	AIM	CID	Congenital defects of phagocyte number or function	c8	GATA2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.411764706
+3075	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c18	CFH	#5100ff	Complement	GWAS_linker	0.387755102
+3078	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	CFHR1	#5100ff	Complement	x	0.312451057
+3257	AIM AIF	AIF	CID	x	c11	HPS1	#00a3ff	Steroid resistant inflammation	x	0.310989867
+3394	AIM AIF	AIF	CID	Defects in intrinsic and innate immunity	c8	IRF8	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.381818182
+3426	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c18	CFI	#5100ff	Complement	x	0.334450964
+3551	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	c20	IKBKB	#ff0000	NFkB and chromatin	GWAS_linker	0.474435196
+3557	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c15	IL1RN	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.348471616
+3559	AIM AIF	AIM	CID	Diseases of immune dysregulation	c16	IL2RA	#14ff00	Interleukin and cytokine	GWAS_linker	0.387755102
+3561	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c16	IL2RG	#14ff00	Interleukin and cytokine	GWAS_linker	0.398601399
+3586	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c15	IL10	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.359783589
+3587	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c16	IL10RA	#14ff00	Interleukin and cytokine	GWAS_linker	0.358168761
+3588	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c16	IL10RB	#14ff00	Interleukin and cytokine	GWAS_linker	0.358168761
+3702	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c14	ITK	#00e0ff	TCR and BCR	GWAS_linker	0.420442571
+3845	AIM AIF	AIM	CID	Phenocopies of inborn errors of immunity	c15	KRAS	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.4453125
+3932	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c14	LCK	#00e0ff	TCR and BCR	GWAS_linker	0.482466747
+3981	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c7	LIG4	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.390410959
+4068	AIM AIF	AIM	"CID, HLH"	Diseases of immune dysregulation	c11	SH2D1A	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.414330218
+4210	AIM AIF	AIF	inflammasomopathy	Autoinflammatory disorders	c15	MEFV	#ff00f4	Regulation of cell death and survival	x	0.360759494
+4261	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c8	CIITA	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.40060241
+4598	AIM AIF	AIF	inflammasomopathy	Autoinflammatory disorders	c7	MVK	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.359459459
+4688	AIM AIF	AIM and AIF	CGD	Congenital defects of phagocyte number or function	c11	NCF2	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.402217742
+4689	AIM AIF	AIM and AIF	CGD	Congenital defects of phagocyte number or function	c11	NCF4	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.391176471
+4790	AIM AIF	AIM and AIF	CVID	Predominantly antibody deficiencies	c8	NFKB1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.499374218
+4791	AIM AIF	AIM	CVID	Predominantly antibody deficiencies	c8	NFKB2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.468309859
+4792	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c20	NFKBIA	#ff0000	NFkB and chromatin	GWAS_linker	0.47107438
+4860	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	c7	PNP	#00ff28	RNA remodelling and nucleotide	x	0.416492693
+5199	AIM AIF	AIF	Complement deficiency	Complement deficiencies	c11	CFP	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.402217742
+5238	AIM AIF	AIF	CID	Combined immunodeficiencies with associated or syndromic features	c7	PGM3	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.399399399
+5293	AIM AIF	AIM	CID	Predominantly antibody deficiencies	c14	PIK3CD	#00e0ff	TCR and BCR	GWAS_linker	0.412616339
+5295	AIM AIF	AIM	CID	Predominantly antibody deficiencies	c14	PIK3R1	#00e0ff	TCR and BCR	GWAS_linker	0.472189349
+5336	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c14	PLCG2	#00e0ff	TCR and BCR	GWAS_linker	0.442350333
+5422	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c8	POLA1	#0028ff	"Transcription factors, DNA binding complex"	x	0.418238994
+5426	AIM AIF	AIF	CID	Combined immunodeficiencies with associated or syndromic features	c8	POLE	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.410916581
+5551	AIM AIF	AIF	HLH	Diseases of immune dysregulation	c11	PRF1	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.359459459
+5580	AIM AIF	AIM	CID	Diseases of immune dysregulation	c14	PRKCD	#00e0ff	TCR and BCR	GWAS_linker	0.487179487
+5591	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c20	PRKDC	#ff0000	NFkB and chromatin	GWAS_linker	0.510883483
+5684	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c6	PSMA3	#00ffe0	Proteasome complex	GWAS_linker	0.472189349
+5692	AIM AIF	AIF	CANDLE (interferonopathy?)	Autoinflammatory disorders	c6	PSMB4	#00ffe0	Proteasome complex	GWAS_linker	0.43654267
+5696	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c6	PSMB8	#00ffe0	Proteasome complex	GWAS_linker	0.391176471
+5698	AIM AIF	AIF	CANDLE (interferonopathy?)	Autoinflammatory disorders	c6	PSMB9	#00ffe0	Proteasome complex	GWAS_linker	0.385880077
+5728	AIM AIF	AIM	CID	Predominantly antibody deficiencies	c6	PTEN	#00ffe0	Proteasome complex	GWAS_linker	0.443826474
+5873	AIM AIF	AIF	"CID, HLH"	Diseases of immune dysregulation	c11	RAB27A	#00a3ff	Steroid resistant inflammation	x	0.39780658
+5896	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c7	RAG1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.405900305
+5897	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c7	RAG2	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.35625
+5993	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c8	RFX5	#0028ff	"Transcription factors, DNA binding complex"	x	0.39194499
+5994	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c8	RFXAP	#0028ff	"Transcription factors, DNA binding complex"	x	0.341609589
+6023	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	na	RMRP	#c1c2c0	x	x	0.327317473
+6452	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c23	SH3BP2	#fff400	x	GWAS_linker	0.419117647
+6499	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c7	SKIV2L	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.401812689
+6578	AIM AIF	AIF	autoinflammatory disease	x	c5	SLCO2A1	#51ff00	Calcium	x	0.345155709
+6772	AIM AIF	AIM and AIF	CID	Defects in intrinsic and innate immunity	c8	STAT1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.483636364
+6774	AIM AIF	AIM	CID	Diseases of immune dysregulation	c8	STAT3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.483636364
+6777	AIM AIF	AIM and AIF	Phenocopies of inborn errors of immunity	Phenocopies of inborn errors of immunity	c14	STAT5b	#00e0ff	TCR and BCR	GWAS_linker	0.440883978
+6786	AIM AIF	AIM	SCID/CID	Combined immunodeficiencies with associated or syndromic features	c5	STIM1	#51ff00	Calcium	GWAS_linker	0.419117647
+6789	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c15	STK4	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.448818898
+6813	AIM AIF	AIM	"CID, HLH"	Diseases of immune dysregulation	c11	STXBP2	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.28705036
+6868	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c15	ADAM17	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.420442571
+6890	AIM AIF	AIF	CID	Immunodeficiencies affecting cellular and humoral immunity	c13	TAP1	#ff003d	Vesicular traffic	GWAS_linker	0.393491124
+6891	AIM AIF	AIF	CID	Immunodeficiencies affecting cellular and humoral immunity	c13	TAP2	#ff003d	Vesicular traffic	GWAS_linker	0.390410959
+6892	AIM AIF	AIF	CID	Immunodeficiencies affecting cellular and humoral immunity	c13	TAPBP	#ff003d	Vesicular traffic	GWAS_linker	0.40797546
+7048	AIM AIF	AIF	autoinflammatory disease	Combined immunodeficiencies with associated or syndromic features	c15	TGFBR2	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.441371681
+7056	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c17	THBD	#ff00b7	x	GWAS_linker	0.359459459
+7128	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c20	TNFAIP3	#ff0000	NFkB and chromatin	GWAS_linker	0.455479452
+7132	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c20	TNFRSF1A	#ff0000	NFkB and chromatin	GWAS_linker	0.484223301
+7174	AIM AIF	AIM and AIF	autoinflammatory disease and autoimmunity	Diseases of immune dysregulation	c6	TPP2	#00ffe0	Proteasome complex	GWAS_linker	0.388888889
+7454	AIM AIF	AIM	CID	Congenital defects of phagocyte number or function	c10	WAS	#cbff00	Actin regulation	GWAS_linker	0.417801047
+7456	AIM AIF	AIF	CID	Combined immunodeficiencies with associated or syndromic features	c10	WIPF1	#cbff00	Actin regulation	GWAS_linker	0.414760915
+7535	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c14	ZAP70	#00e0ff	TCR and BCR	GWAS_linker	0.428571429
+8517	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c20	IKBKG	#ff0000	NFkB and chromatin	GWAS_linker	0.501256281
+8546	AIM AIF	AIF	neutrophil disorders	Diseases of immune dysregulation	c13	AP3B1	#ff003d	Vesicular traffic	GWAS_linker	0.425827108
+8547	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	FCN3	#5100ff	Complement	x	0.249530957
+8625	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c12	RFXANK	#ff7a00	x	GWAS_linker	0.391560353
+8676	AIM AIF	AIM and AIF	"CID, HLH"	Diseases of immune dysregulation	c11	STX11	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.402217742
+8737	AIM AIF	AIF	CID	Diseases of immune dysregulation	c20	RIPK1	#ff0000	NFkB and chromatin	GWAS_linker	0.454960091
+8772	AIM AIF	AIF	CID	Diseases of immune dysregulation	c15	FADD	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.426737968
+9051	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c10	PSTPIP1	#cbff00	Actin regulation	GWAS_linker	0.370817844
+9652	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c7	TTC37	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.40797546
+9663	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c8	LPIN2	#0028ff	"Transcription factors, DNA binding complex"	x	0.348167539
+9841	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	c8	ZBTB24	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.338135593
+9948	AIM AIF	AIM and AIF	CID	Congenital defects of phagocyte number or function	c10	WDR1	#cbff00	Actin regulation	GWAS_linker	0.446808511
+10095	AIM AIF	AIM	CID	Combined immunodeficiencies with associated or syndromic features	c10	ARPC1B	#cbff00	Actin regulation	GWAS_linker	0.442350333
+10346	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c20	TRIM22	#ff0000	NFkB and chromatin	GWAS_linker	0.369102683
+10535	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	RNASEH2A	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.382917466
+10616	AIM AIF	AIF	autoinflammatory disease	Combined immunodeficiencies with associated or syndromic features	c20	RBCK1	#ff0000	NFkB and chromatin	GWAS_linker	0.427194861
+10725	AIM AIF	AIM and AIF	CID	Diseases of immune dysregulation	c8	NFAT5	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.406313646
+10747	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	MASP2	#5100ff	Complement	x	0.29273661
+10878	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c3	CFHR3	#1400ff	x	x	0.335576114
+10892	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c20	MALT1	#ff0000	NFkB and chromatin	GWAS_linker	0.433224756
+11274	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c6	USP18	#00ffe0	Proteasome complex	GWAS_linker	0.385135135
+11277	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	TREX1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.39780658
+22861	AIM AIF	AIM and AIF	inflammasomopathy	Autoinflammatory disorders	c15	NLRP1	#ff00f4	Regulation of cell death and survival	x	0.382183908
+23495	AIM AIF	AIM	CVID	Predominantly antibody deficiencies	c16	TNFRSF13B	#14ff00	Interleukin and cytokine	GWAS_linker	0.377483444
+23586	AIM AIF	AIF	interferenopathy	x	c15	DDX58	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.421775899
+25939	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	SAMHD1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.439427313
+26525	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c15	IL36RN	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.371854613
+27040	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c15	LAT	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.430420712
+28755	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	na	TRAC	#c1c2c0	x	GWAS_linker	0.215559157
+29851	AIM AIF	AIM	CVID	Immunodeficiencies affecting cellular and humoral immunity	c17	ICOS	#ff00b7	x	GWAS_linker	0.359783589
+30817	AIM AIF	AIF	autoinflammatory disease	x	c16	ADGRE2	#14ff00	Interleukin and cytokine	x	0.355298308
+50506	AIM AIF	AIF	CID	x	c16	DUOX2	#14ff00	Interleukin and cytokine	x	0.286226686
+50619	AIM AIF	AIM	CID	Diseases of immune dysregulation	c12	DEF6	#ff7a00	x	GWAS_linker	0.390410959
+50943	AIM AIF	AIM	CID	Diseases of immune dysregulation	c20	FOXP3	#ff0000	NFkB and chromatin	GWAS_linker	0.404665314
+51095	AIM AIF	AIM and AIF	CID	Predominantly antibody deficiencies	c7	TRNT1	#00ff28	RNA remodelling and nucleotide	x	0.343965517
+51371	AIM AIF	AIF	CANDLE (interferonopathy?)	Autoinflammatory disorders	c12	POMP	#ff7a00	x	GWAS_linker	0.399
+51816	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c7	SNEDS	#00ff28	RNA remodelling and nucleotide	x	0.317928287
+55072	AIM AIF	AIF	autoinflammatory disease	Combined immunodeficiencies with associated or syndromic features	c20	RNF31	#ff0000	NFkB and chromatin	GWAS_linker	0.457044674
+55139	AIM AIF	AIM	CID	x	c6	ANKZF1	#00ffe0	Proteasome complex	x	0.403437816
+55315	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c13	SLC29A3	#ff003d	Vesicular traffic	x	0.294682422
+55612	AIM AIF	AIF	autoinflammatory disease	Diseases of immune dysregulation	c9	FERMT1	#ff3d00	x	GWAS_linker	0.36978684
+57217	AIM AIF	AIM and AIF	CID	Combined immunodeficiencies with associated or syndromic features	c4	TTC7A	#cc00ff	x	x	0.36978684
+57379	AIM AIF	AIM	CID	Predominantly antibody deficiencies	c8	AICDA	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.408811475
+58484	AIM AIF	AIF	inflammasomopathy	Autoinflammatory disorders	c15	NLRC4	#ff00f4	Regulation of cell death and survival	x	0.375
+59067	AIM AIF	AIM and AIF	CID	Immunodeficiencies affecting cellular and humoral immunity	c20	IL21	#ff0000	NFkB and chromatin	GWAS_linker	0.334450964
+60468	AIM AIF	AIM	CID	Diseases of immune dysregulation	c8	BACH2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.371162791
+64127	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c15	NOD2	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.404255319
+64135	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c15	IFIH1	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.391560353
+64421	AIM AIF	AIM	SCID/CID	Immunodeficiencies affecting cellular and humoral immunity	c7	DCLRE1C	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.357526882
+79092	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c20	CARD14	#ff0000	NFkB and chromatin	GWAS_linker	0.343078246
+79621	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	RNASEH2B	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.367403315
+79803	AIM AIF	AIF	CID	x	c13	HPS6	#ff003d	Vesicular traffic	x	0.386627907
+81494	AIM AIF	AIM	Complement deficiency	Complement deficiencies	c18	CFHR5	#5100ff	Complement	x	0.364716636
+81704	AIM AIF	AIM	CID	Immunodeficiencies affecting cellular and humoral immunity	c17	DOCK8	#ff00b7	x	GWAS_linker	0.381818182
+83737	AIM AIF	AIM	CID	Diseases of immune dysregulation	c20	ITCH	#ff0000	NFkB and chromatin	GWAS_linker	0.442350333
+84061	AIM AIF	AIM	CID	Diseases of immune dysregulation	c11	MAGT1	#00a3ff	Steroid resistant inflammation	GWAS_linker	0.410071942
+84153	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c7	RNASEH2C	#00ff28	RNA remodelling and nucleotide	GWAS_linker	0.341317365
+84876	AIM AIF	AIM	SCID/CID	Combined immunodeficiencies with associated or syndromic features	c5	ORAI1	#51ff00	Calcium	x	0.338135593
+89781	AIM AIF	AIF	CID	x	c11	HPS4	#00a3ff	Steroid resistant inflammation	x	0.32465419
+90268	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c20	OTULIN	#ff0000	NFkB and chromatin	GWAS_linker	0.39780658
+91662	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c15	NLRP12	#ff00f4	Regulation of cell death and survival	GWAS_linker	0.382183908
+92579	AIM AIF	AIF	neutrophil disorders	Congenital defects of phagocyte number or function	c13	G6PC3	#ff003d	Vesicular traffic	x	0.278825996
+114548	AIM AIF	AIF	"inflammasomopathy,autoinflammatory disease,Phenocopies of inborn errors of immunity"	Phenocopies of inborn errors of immunity	c20	NLRP3	#ff0000	NFkB and chromatin	GWAS_linker	0.368081181
+115650	AIM AIF	AIM	CVID	Predominantly antibody deficiencies	c16	TNFRSF13C	#14ff00	Interleukin and cytokine	x	0.336141533
+130340	AIM AIF	AIF	autoinflammatory disease	Autoinflammatory disorders	c13	AP1S3	#ff003d	Vesicular traffic	x	0.321256039
+201294	AIM AIF	AIF	"CID, HLH"	Diseases of immune dysregulation	c11	UNC13D	#00a3ff	Steroid resistant inflammation	x	0.344262295
+340061	AIM AIF	AIF	interferenopathy	Autoinflammatory disorders	c8	TMEM173	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	0.368421053
+653361	AIM AIF	AIM and AIF	CGD	Congenital defects of phagocyte number or function	c20	NCF1	#ff0000	NFkB and chromatin	GWAS_linker	0.420442571
+25	linker	x	x	x	c14	ABL1	#00e0ff	TCR and BCR	GWAS_linker	
+58	linker	x	x	x	c10	ACTA1	#cbff00	Actin regulation	GWAS_linker	
+59	linker	x	x	x	c8	ACTA2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+60	linker	x	x	Congenital defects of phagocyte number or function	c10	ACTB	#cbff00	Actin regulation	GWAS_linker	
+71	linker	x	x	x	c10	ACTG1	#cbff00	Actin regulation	GWAS_linker	
+207	linker	x	x	x	c14	AKT1	#00e0ff	TCR and BCR	GWAS_linker	
+213	linker	x	x	x	c11	ALB	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+216	linker	x	x	x	c3	ALDH1A1	#1400ff	x	GWAS_linker	
+329	linker	x	x	x	c20	BIRC2	#ff0000	NFkB and chromatin	GWAS_linker	
+330	linker	x	x	x	c20	BIRC3	#ff0000	NFkB and chromatin	GWAS_linker	
+335	linker	x	x	x	c15	APOA1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+348	linker	x	x	x	c15	APOE	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+351	linker	x	x	x	c14	APP	#00e0ff	TCR and BCR	GWAS_linker	
+363	linker	x	x	x	c5	AQP6	#51ff00	Calcium	GWAS_linker	
+444	linker	x	x	x	c15	ASPH	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+638	linker	x	x	x	c21	BIK	#c1c2c0	x	GWAS_linker	
+708	linker	x	x	x	c15	C1QBP	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+811	linker	x	x	x	c15	CALR	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+821	linker	x	x	x	c13	CANX	#ff003d	Vesicular traffic	GWAS_linker	
+834	linker	x	x	x	c15	CASP1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+867	linker	x	x	x	c15	CBL	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+891	linker	x	x	x	c8	CCNB1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+919	linker	x	x	Immunodeficiencies affecting cellular and humoral immunity	c11	CD247	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+945	linker	x	x	x	c11	CD33	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+966	linker	x	x	Complement deficiencies	c18	CD59	#5100ff	Complement	GWAS_linker	
+988	linker	x	x	x	c8	CDC5L	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+999	linker	x	x	x	c8	CDH1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+1017	linker	x	x	x	c8	CDK2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+1080	linker	x	x	Congenital defects of phagocyte number or function	c13	CFTR	#ff003d	Vesicular traffic	GWAS_linker	
+1147	linker	x	x	x	c20	CHUK	#ff0000	NFkB and chromatin	GWAS_linker	
+1173	linker	x	x	x	c13	AP2M1	#ff003d	Vesicular traffic	GWAS_linker	
+1191	linker	x	x	x	c20	CLU	#ff0000	NFkB and chromatin	GWAS_linker	
+1378	linker	x	x	x	c18	CR1	#5100ff	Complement	GWAS_linker	
+1385	linker	x	x	x	c8	CREB1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+1398	linker	x	x	x	c14	CRK	#00e0ff	TCR and BCR	GWAS_linker	
+1432	linker	x	x	x	c14	MAPK14	#00e0ff	TCR and BCR	GWAS_linker	
+1457	linker	x	x	x	c6	CSNK2A1	#00ffe0	Proteasome complex	GWAS_linker	
+1474	linker	x	x	x	c3	CST6	#1400ff	x	GWAS_linker	
+1606	linker	x	x	x	c4	DGKA	#cc00ff	x	GWAS_linker	
+1893	linker	x	x	x	c15	ECM1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+1915	linker	x	x	x	c6	EEF1A1	#00ffe0	Proteasome complex	GWAS_linker	
+1956	linker	x	x	x	c14	EGFR	#00e0ff	TCR and BCR	GWAS_linker	
+1994	linker	x	x	x	c7	ELAVL1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+2017	linker	x	x	x	c10	CTTN	#cbff00	Actin regulation	GWAS_linker	
+2023	linker	x	x	x	c8	ENO1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+2033	linker	x	x	x	c20	EP300	#ff0000	NFkB and chromatin	GWAS_linker	
+2100	linker	x	x	x	c8	ESR2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+2147	linker	x	x	x	c15	F2	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+2219	linker	x	x	x	c11	FCN1	#00a3ff	Steroid resistant inflammation	x	
+2220	linker	x	x	x	c18	FCN2	#5100ff	Complement	x	
+2335	linker	x	x	x	c15	FN1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+2534	linker	x	x	x	c14	FYN	#00e0ff	TCR and BCR	GWAS_linker	
+2740	linker	x	x	x	c5	GLP1R	#51ff00	Calcium	GWAS_linker	
+2859	linker	x	x	x	c5	GPR35	#51ff00	Calcium	GWAS_linker	
+2861	linker	x	x	x	c15	GPR37	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+2885	linker	x	x	x	c14	GRB2	#00e0ff	TCR and BCR	GWAS_linker	
+2908	linker	x	x	x	c8	NR3C1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+2923	linker	x	x	x	c13	PDIA3	#ff003d	Vesicular traffic	GWAS_linker	
+3106	linker	x	x	x	c24	HLA-B	#c1c2c0	x	GWAS_linker	
+3191	linker	x	x	x	c7	HNRNPL	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+3312	linker	x	x	x	c6	HSPA8	#00ffe0	Proteasome complex	GWAS_linker	
+3320	linker	x	x	x	c20	HSP90AA1	#ff0000	NFkB and chromatin	GWAS_linker	
+3326	linker	x	x	x	c20	HSP90AB1	#ff0000	NFkB and chromatin	GWAS_linker	
+3357	linker	x	x	x	c15	HTR2B	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+3500	linker	x	x	x	c1	IGHG1	#c1c2c0	x	GWAS_linker	
+3609	linker	x	x	x	c8	ILF3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+3654	linker	x	x	Defects in intrinsic and innate immunity	c20	IRAK1	#ff0000	NFkB and chromatin	GWAS_linker	
+3716	linker	x	x	Defects in intrinsic and innate immunity	c15	JAK1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+3717	linker	x	x	x	c15	JAK2	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+3725	linker	x	x	x	c8	JUN	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+3835	linker	x	x	x	c12	KIF22	#ff7a00	x	GWAS_linker	
+3836	linker	x	x	x	c7	KPNA1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+3843	linker	x	x	x	c6	IPO5	#00ffe0	Proteasome complex	GWAS_linker	
+3846	linker	x	x	x	c9	KRTAP5-9	#ff3d00	x	GWAS_linker	
+3916	linker	x	x	x	c11	LAMP1	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+3929	linker	x	x	x	c19	LBP	#00ff66	x	GWAS_linker	
+4000	linker	x	x	x	c12	LMNA	#ff7a00	x	GWAS_linker	
+4035	linker	x	x	x	c13	LRP1	#ff003d	Vesicular traffic	GWAS_linker	
+4067	linker	x	x	x	c15	LYN	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+4153	linker	x	x	x	c18	MBL2	#5100ff	Complement	GWAS_linker	
+4171	linker	x	x	x	c8	MCM2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+4176	linker	x	x	x	c8	MCM7	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+4179	linker	x	x	Complement deficiencies	c17	CD46	#ff00b7	x	GWAS_linker	
+4343	linker	x	x	x	c7	MOV10	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+4609	linker	x	x	x	c8	MYC	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+4690	linker	x	x	x	c14	NCK1	#00e0ff	TCR and BCR	GWAS_linker	
+4738	linker	x	x	x	c6	NEDD8	#00ffe0	Proteasome complex	GWAS_linker	
+4851	linker	x	x	x	c15	NOTCH1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+4914	linker	x	x	x	c14	NTRK1	#00e0ff	TCR and BCR	GWAS_linker	
+5335	linker	x	x	x	c14	PLCG1	#00e0ff	TCR and BCR	GWAS_linker	
+5340	linker	x	x	x	c17	PLG	#ff00b7	x	GWAS_linker	
+5345	linker	x	x	x	c15	SERPINF2	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+5371	linker	x	x	x	c20	PML	#ff0000	NFkB and chromatin	GWAS_linker	
+5499	linker	x	x	x	c6	PPP1CA	#00ffe0	Proteasome complex	GWAS_linker	
+5578	linker	x	x	x	c14	PRKCA	#00e0ff	TCR and BCR	GWAS_linker	
+5579	linker	x	x	x	c14	PRKCB	#00e0ff	TCR and BCR	GWAS_linker	
+5581	linker	x	x	x	c14	PRKCE	#00e0ff	TCR and BCR	GWAS_linker	
+5582	linker	x	x	x	c6	PRKCG	#00ffe0	Proteasome complex	GWAS_linker	
+5584	linker	x	x	x	c14	PRKCI	#00e0ff	TCR and BCR	GWAS_linker	
+5588	linker	x	x	x	c14	PRKCQ	#00e0ff	TCR and BCR	GWAS_linker	
+5590	linker	x	x	x	c20	PRKCZ	#ff0000	NFkB and chromatin	GWAS_linker	
+5594	linker	x	x	x	c14	MAPK1	#00e0ff	TCR and BCR	GWAS_linker	
+5610	linker	x	x	x	c20	EIF2AK2	#ff0000	NFkB and chromatin	GWAS_linker	
+5648	linker	x	x	x	c18	MASP1	#5100ff	Complement	GWAS_linker	
+5702	linker	x	x	x	c8	PSMC3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+5705	linker	x	x	x	c8	PSMC5	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+5777	linker	x	x	x	c11	PTPN6	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+5806	linker	x	x	x	c11	PTX3	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+5879	linker	x	x	x	c10	RAC1	#cbff00	Actin regulation	GWAS_linker	
+5880	linker	x	x	Congenital defects of phagocyte number or function	c10	RAC2	#cbff00	Actin regulation	GWAS_linker	
+5966	linker	x	x	Immunodeficiencies affecting cellular and humoral immunity	c8	REL	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+5970	linker	x	x	Immunodeficiencies affecting cellular and humoral immunity	c8	RELA	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+6047	linker	x	x	x	c8	RNF4	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+6118	linker	x	x	x	c8	RPA2	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+6449	linker	x	x	x	c6	SGTA	#00ffe0	Proteasome complex	GWAS_linker	
+6455	linker	x	x	x	c9	SH3GL1	#ff3d00	x	GWAS_linker	
+6462	linker	x	x	x	c3	SHBG	#1400ff	x	GWAS_linker	
+6502	linker	x	x	x	c6	SKP2	#00ffe0	Proteasome complex	GWAS_linker	
+6541	linker	x	x	x	c5	SLC7A1	#51ff00	Calcium	GWAS_linker	
+6554	linker	x	x	x	c5	SLC10A1	#51ff00	Calcium	GWAS_linker	
+6613	linker	x	x	x	c6	SUMO2	#00ffe0	Proteasome complex	GWAS_linker	
+6667	linker	x	x	x	c8	SP1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+6714	linker	x	x	x	c15	SRC	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+6776	linker	x	x	x	c14	STAT5A	#00e0ff	TCR and BCR	GWAS_linker	
+7094	linker	x	x	x	c10	TLN1	#cbff00	Actin regulation	GWAS_linker	
+7124	linker	x	x	x	c15	TNF	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+7157	linker	x	x	Bone marrow failure	c20	TP53	#ff0000	NFkB and chromatin	GWAS_linker	
+7169	linker	x	x	x	c10	TPM2	#cbff00	Actin regulation	GWAS_linker	
+7175	linker	x	x	x	c8	TPR	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+7185	linker	x	x	x	c20	TRAF1	#ff0000	NFkB and chromatin	GWAS_linker	
+7186	linker	x	x	x	c20	TRAF2	#ff0000	NFkB and chromatin	GWAS_linker	
+7187	linker	x	x	Defects in intrinsic and innate immunity	c20	TRAF3	#ff0000	NFkB and chromatin	GWAS_linker	
+7189	linker	x	x	x	c20	TRAF6	#ff0000	NFkB and chromatin	GWAS_linker	
+7297	linker	x	x	Defects in intrinsic and innate immunity	c6	TYK2	#00ffe0	Proteasome complex	GWAS_linker	
+7314	linker	x	x	x	c20	UBB	#ff0000	NFkB and chromatin	GWAS_linker	
+7316	linker	x	x	x	c20	UBC	#ff0000	NFkB and chromatin	GWAS_linker	
+7334	linker	x	x	x	c20	UBE2N	#ff0000	NFkB and chromatin	GWAS_linker	
+7341	linker	x	x	x	c20	SUMO1	#ff0000	NFkB and chromatin	GWAS_linker	
+7412	linker	x	x	x	c17	VCAM1	#ff00b7	x	GWAS_linker	
+7415	linker	x	x	x	c20	VCP	#ff0000	NFkB and chromatin	GWAS_linker	
+7428	linker	x	x	x	c8	VHL	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+7430	linker	x	x	x	c15	EZR	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+7514	linker	x	x	x	c7	XPO1	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+7520	linker	x	x	x	c8	XRCC5	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+7706	linker	x	x	x	c20	TRIM25	#ff0000	NFkB and chromatin	GWAS_linker	
+7917	linker	x	x	x	c6	BAG6	#00ffe0	Proteasome complex	GWAS_linker	
+8345	linker	x	x	x	c12	HIST1H2BH	#ff7a00	x	GWAS_linker	
+8349	linker	x	x	x	c12	HIST2H2BE	#ff7a00	x	GWAS_linker	
+8350	linker	x	x	x	c22	HIST1H3A	#ff007a	x	GWAS_linker	
+8452	linker	x	x	x	c8	CUL3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+8651	linker	x	x	x	c15	SOCS1	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+8878	linker	x	x	x	c20	SQSTM1	#ff0000	NFkB and chromatin	GWAS_linker	
+8907	linker	x	x	x	c13	AP1M1	#ff003d	Vesicular traffic	GWAS_linker	
+8915	linker	x	x	Immunodeficiencies affecting cellular and humoral immunity	c20	BCL10	#ff0000	NFkB and chromatin	GWAS_linker	
+9021	linker	x	x	x	c15	SOCS3	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+9319	linker	x	x	x	c8	TRIP13	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+9343	linker	x	x	x	c7	EFTUD2	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+9531	linker	x	x	x	c8	BAG3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+9730	linker	x	x	x	c8	DCAF1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+9759	linker	x	x	x	c8	HDAC4	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+10038	linker	x	x	x	c6	PARP2	#00ffe0	Proteasome complex	GWAS_linker	
+10427	linker	x	x	x	c13	SEC24B	#ff003d	Vesicular traffic	GWAS_linker	
+10482	linker	x	x	x	c2	NXF1	#00ffa3	x	GWAS_linker	
+10488	linker	x	x	x	c8	CREB3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+10537	linker	x	x	x	c6	UBD	#00ffe0	Proteasome complex	GWAS_linker	
+10542	linker	x	x	x	c13	LAMTOR5	#ff003d	Vesicular traffic	GWAS_linker	
+10549	linker	x	x	x	c11	PRDX4	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+10673	linker	x	x	x	c16	TNFSF13B	#14ff00	Interleukin and cytokine	GWAS_linker	
+10682	linker	x	x	x	c13	EBP	#ff003d	Vesicular traffic	GWAS_linker	
+10758	linker	x	x	Defects in intrinsic and innate immunity	c19	TRAF3IP2	#00ff66	x	GWAS_linker	
+10775	linker	x	x	x	c7	POP4	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+10803	linker	x	x	x	c5	CCR9	#51ff00	Calcium	GWAS_linker	
+10971	linker	x	x	x	c8	YWHAQ	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+11001	linker	x	x	x	c11	SLC27A2	#00a3ff	Steroid resistant inflammation	GWAS_linker	
+11269	linker	x	x	x	c2	DDX19B	#00ffa3	x	GWAS_linker	
+22938	linker	x	x	x	c8	SNW1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+23118	linker	x	x	x	c20	TAB2	#ff0000	NFkB and chromatin	GWAS_linker	
+23291	linker	x	x	x	c8	FBXW11	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+23524	linker	x	x	x	c7	SRRM2	#00ff28	RNA remodelling and nucleotide	GWAS_linker	
+25913	linker	x	x	x	c8	POT1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+26123	linker	x	x	x	c12	TCTN3	#ff7a00	x	GWAS_linker	
+26260	linker	x	x	x	c6	FBXO25	#00ffe0	Proteasome complex	GWAS_linker	
+26270	linker	x	x	x	c6	FBXO6	#00ffe0	Proteasome complex	GWAS_linker	
+27101	linker	x	x	x	c12	CACYBP	#ff7a00	x	GWAS_linker	
+29108	linker	x	x	x	c15	PYCARD	#ff00f4	Regulation of cell death and survival	GWAS_linker	
+29978	linker	x	x	x	c6	UBQLN2	#00ffe0	Proteasome complex	GWAS_linker	
+29979	linker	x	x	x	c6	UBQLN1	#00ffe0	Proteasome complex	GWAS_linker	
+50615	linker	x	x	Immunodeficiencies affecting cellular and humoral immunity	c16	IL21R	#14ff00	Interleukin and cytokine	GWAS_linker	
+51061	linker	x	x	x	c25	TXNDC11	#c1c2c0	x	GWAS_linker	
+51547	linker	x	x	x	c8	SIRT7	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+51614	linker	x	x	x	c13	ERGIC3	#ff003d	Vesicular traffic	GWAS_linker	
+55626	linker	x	x	x	c12	AMBRA1	#ff7a00	x	GWAS_linker	
+55741	linker	x	x	x	c6	EDEM2	#00ffe0	Proteasome complex	GWAS_linker	
+63891	linker	x	x	x	c6	RNF123	#00ffe0	Proteasome complex	GWAS_linker	
+64900	linker	x	x	x	c8	LPIN3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+65061	linker	x	x	x	c6	CDK15	#00ffe0	Proteasome complex	GWAS_linker	
+79012	linker	x	x	x	c23	CAMKV	#fff400	x	GWAS_linker	
+80342	linker	x	x	x	na	TRAF3IP3	#c1c2c0	x	GWAS_linker	
+90993	linker	x	x	x	c8	CREB3L1	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+93380	linker	x	x	x	c13	MMGT1	#ff003d	Vesicular traffic	GWAS_linker	
+112399	linker	x	x	x	c8	EGLN3	#0028ff	"Transcription factors, DNA binding complex"	GWAS_linker	
+120892	linker	x	x	x	c6	LRRK2	#00ffe0	Proteasome complex	GWAS_linker	
+128866	linker	x	x	x	c12	CHMP4B	#ff7a00	x	GWAS_linker	
+144100	linker	x	x	x	c3	PLEKHA7	#1400ff	x	GWAS_linker	
+200232	linker	x	x	x	c3	FAM209A	#1400ff	x	GWAS_linker	
+220323	linker	x	x	x	na	OAF	#c1c2c0	x	GWAS_linker	
+375791	linker	x	x	x	c3	CYSRT1	#1400ff	x	GWAS_linker	
+386681	linker	x	x	x	c9	KRTAP10-8	#ff3d00	x	GWAS_linker	
+387522	linker	x	x	x	c9	TMEM189-UBE2V1	#ff3d00	x	GWAS_linker	
+388677	linker	x	x	x	c1	NOTCH2NLA	#c1c2c0	x	GWAS_linker	
+390212	linker	x	x	x	c16	GPR152	#14ff00	Interleukin and cytokine	GWAS_linker	
+100290337	linker	x	x	x	c22	100290337	#ff007a	x	GWAS_linker	
+101060226	linker	x	x	x	c1	NBPF19	#c1c2c0	x	x	
