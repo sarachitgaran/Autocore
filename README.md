@@ -16,6 +16,8 @@ Each disease module contains:
 - Analysis scripts
 - Plots and tables
 
+<img width="420" height="179" alt="image" src="https://github.com/user-attachments/assets/5ca12b17-9fbd-4e28-a141-a77d8eb6fc7d" />
+
 ## Getting Started
 
 1. **Clone the repository:**
