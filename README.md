@@ -2,45 +2,6 @@
 
 Autocore is a bioinformatics pipeline for processing and analyzing RNA-seq data, with a focus on autoimmune diseases. The repository contains scripts and resources for data prefetching, alignment, quantification, and downstream analysis.
 
-## Repository Structure (Recommended)
-
-```
-Autocore/
-│
-├── data/                # Raw and processed data (input/output)
-│   ├── raw/
-│   └── processed/
-│
-├── scripts/             # All pipeline scripts (shell, R, Python, etc.)
-│   ├── prefetch/
-│   ├── fastq/
-│   ├── alignment/
-│   ├── quantification/
-│   └── analysis/
-│
-├── results/             # Output results (counts, plots, tables)
-│   ├── counts/
-│   ├── plots/
-│   └── tables/
-│
-├── metadata/            # Metadata files (e.g., sample info, experimental design)
-│
-├── docs/                # Documentation, manuals, and references
-│
-├── env/                 # Environment and config files (renv, conda, etc.)
-│
-├── disease_modules/     # Disease-specific analyses
-│   ├── IBD/
-│   ├── Psoriasis/
-│   ├── RA/
-│   ├── Sjörgen/
-│   └── SLE/
-│
-├── README.md
-├── LICENSE
-└── Autocore.Rproj
-```
-
 ## Disease Modules
 
 - **IBD (Inflammatory Bowel Disease):** Chronic inflammation of the digestive tract, including Crohn's disease and ulcerative colitis.
@@ -68,9 +29,8 @@ Each disease module contains:
    - [renv](https://rstudio.github.io/renv/) for R package management
 
 3. **Run the pipeline:**
-   - Organize your files according to the structure above.
-   - Execute scripts in the `scripts/` folder stepwise.
-   - Use disease modules for downstream analysis and visualization.
+   - Execute the shell scripts in order (`0_prefetch.sh` → `4_htseq_count.sh`).
+   - Use R scripts in disease folders for downstream analysis.
 
 ## Contributing
 
