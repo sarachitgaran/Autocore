@@ -2,18 +2,58 @@
 
 Autocore is a bioinformatics pipeline for processing and analyzing RNA-seq data, with a focus on autoimmune diseases. The repository contains scripts and resources for data prefetching, alignment, quantification, and downstream analysis.
 
-## Repository Structure
+## Repository Structure (Recommended)
 
-- `0_prefetch.sh` — Script for prefetching raw sequencing data.
-- `1_fastq_dump.sh` — Converts SRA files to FASTQ format.
-- `2_hisat.sh` — Aligns reads using HISAT2.
-- `3_samtools.sh` — Processes alignment files with SAMtools.
-- `4_htseq_count.sh` — Quantifies gene expression using HTSeq.
-- `counts/` — Contains gene count files for various samples.
-- `IBD/`, `Psoriasis/`, `RA/`, `Sjörgen/`, `SLE/`, `T1D/` — Disease-specific folders with metadata, counts, plots, and analysis scripts.
-- `README.md` — Project documentation.
-- `Autocore.Rproj` — R project file for reproducible analysis.
-- `renv/` — R environment management.
+```
+Autocore/
+│
+├── data/                # Raw and processed data (input/output)
+│   ├── raw/
+│   └── processed/
+│
+├── scripts/             # All pipeline scripts (shell, R, Python, etc.)
+│   ├── prefetch/
+│   ├── fastq/
+│   ├── alignment/
+│   ├── quantification/
+│   └── analysis/
+│
+├── results/             # Output results (counts, plots, tables)
+│   ├── counts/
+│   ├── plots/
+│   └── tables/
+│
+├── metadata/            # Metadata files (e.g., sample info, experimental design)
+│
+├── docs/                # Documentation, manuals, and references
+│
+├── env/                 # Environment and config files (renv, conda, etc.)
+│
+├── disease_modules/     # Disease-specific analyses
+│   ├── IBD/
+│   ├── Psoriasis/
+│   ├── RA/
+│   ├── Sjörgen/
+│   └── SLE/
+│
+├── README.md
+├── LICENSE
+└── Autocore.Rproj
+```
+
+## Disease Modules
+
+- **IBD (Inflammatory Bowel Disease):** Chronic inflammation of the digestive tract, including Crohn's disease and ulcerative colitis.
+- **Psoriasis:** Autoimmune skin disorder causing red, scaly patches.
+- **RA (Rheumatoid Arthritis):** Autoimmune disorder affecting joints, causing pain and swelling.
+- **Sjörgen's Syndrome:** Autoimmune disease targeting moisture-producing glands, leading to dry mouth and eyes.
+- **SLE (Systemic Lupus Erythematosus):** Multi-system autoimmune disease affecting skin, joints, kidneys, and other organs.
+
+Each disease module contains:
+- Disease-specific metadata
+- Count files
+- Analysis scripts
+- Plots and tables
 
 ## Getting Started
 
@@ -28,13 +68,9 @@ Autocore is a bioinformatics pipeline for processing and analyzing RNA-seq data,
    - [renv](https://rstudio.github.io/renv/) for R package management
 
 3. **Run the pipeline:**
-   - Execute the shell scripts in order (`0_prefetch.sh` → `4_htseq_count.sh`).
-   - Use R scripts in disease folders for downstream analysis.
-
-## Data Organization
-
-- **counts/**: Contains raw and processed count files for each sample.
-- **Disease folders**: Each folder contains metadata, counts, enrichment tests, plots, and tables for a specific autoimmune disease.
+   - Organize your files according to the structure above.
+   - Execute scripts in the `scripts/` folder stepwise.
+   - Use disease modules for downstream analysis and visualization.
 
 ## Contributing
 
