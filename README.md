@@ -1,3 +1,5 @@
+<img width="420" height="179" alt="image" src="https://github.com/user-attachments/assets/5ca12b17-9fbd-4e28-a141-a77d8eb6fc7d" />
+
 # Autocore
 
 Autocore is a bioinformatics pipeline for processing and analyzing RNA-seq data, with a focus on autoimmune diseases. The repository contains scripts and resources for data prefetching, alignment, quantification, and downstream analysis.
@@ -16,7 +18,7 @@ Each disease module contains:
 - Analysis scripts
 - Plots and tables
 
-<img width="420" height="179" alt="image" src="https://github.com/user-attachments/assets/5ca12b17-9fbd-4e28-a141-a77d8eb6fc7d" />
+
 
 ## Getting Started
 
