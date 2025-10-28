@@ -10,4 +10,9 @@
 
 module load sratoolkit
 
-prefetch --option-file Acc_list.txt
+# Alternative reproducible approach: loop over all accession numbers in a file (Acc_list.txt)
+# This makes the script independent of hardcoded values and more robust.
+while read -r acc; do
+    echo "Prefetching $acc ..."
+    prefetch "$acc"
+done < Acc_list.txt

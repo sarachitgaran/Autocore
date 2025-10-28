@@ -16,3 +16,13 @@ for id in $(seq 1721280 1721313); do
     samtools sort -@ 40 -o "./${sample}_sorted.bam"
     samtools index "./${sample}_sorted.bam"
 done
+
+# Alternative reproducible approach: loop over all .sam files in the current directory
+# This makes the script independent of specific numeric ranges and more robust.
+for samfile in SRR*.sam; do
+    sample="${samfile%.sam}"
+    echo "Processing $sample ..."
+    samtools view -@ 40 -bS "$samfile" | \
+    samtools sort -@ 40 -o "${sample}_sorted.bam"
+    samtools index "${sample}_sorted.bam"
+done
