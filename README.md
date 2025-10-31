@@ -29,22 +29,17 @@ Each disease module contains:
    cd Autocore
    ```
 2. **Install dependencies:**
-   - R (recommended: use RStudio)
+   - R
    - HISAT2, SAMtools, HTSeq
-   - [renv](https://rstudio.github.io/renv/) for R package management
 
 3. **Run the pipeline:**
    - Execute the shell scripts in order (`0_prefetch.sh` → `4_htseq_count.sh`).
    - Use R scripts in disease folders for downstream analysis.
 
+## Repository Structure
+
+All Linux-based processing scripts are located in the `Bash_Scripts` directory, with each step of the pipeline implemented as a separate SLURM batch file. The resulting gene count files are collected in the  `Count_Files` directory. Differential gene expression (DGE) analysis and its results—including plots and tables—are organized in the `Differential_Gene_Expression_Analysis` directory. Further downstream analyses are stored in the `Downstream_Analysis` drectory.
+
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions or collaboration, contact the repository owner via GitHub.
