@@ -7,7 +7,7 @@ Autocore is a bioinformatics pipeline for processing and analyzing RNA-seq data,
 
 ## Disease Modules
 
-- **IBD (Inflammatory Bowel Disease):** Chronic inflammation of the digestive tract, including Crohn's Disease(CD) and Ulcerative Colitis(UC).
+- **IBD (Inflammatory Bowel Disease):** Chronic inflammation of the digestive tract, including Crohn's Disease(CD) and Ulcerative Colitis(UC) which can ultimatley lead to Colorectal Cancer (CRC).
 - **Psoriasis:** Autoimmune skin disorder causing red, scaly patches.
 - **RA (Rheumatoid Arthritis):** Autoimmune disorder affecting joints, causing pain and swelling.
 - **Sjörgen's Syndrome:** Autoimmune disease targeting moisture-producing glands, leading to dry mouth and eyes.
